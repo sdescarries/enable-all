@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Remove Disabled Attributes",
+  "version": "1.0",
+  "description": "Removes the 'disabled' attribute from all elements on the page.",
+  "action": {
+    "default_title": "Click to enable all elements"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
